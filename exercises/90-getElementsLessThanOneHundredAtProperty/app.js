@@ -15,7 +15,7 @@ function getElementsLessThan100AtProperty(object, key) {
             // Se valida que tenga elementos
             if(element.length > 0){
             
-                // Se validan todos los elementos del array en busca de valores iguales a 10
+                // Se validan todos los elementos del array en busca de valores menores a 100
                 for (i=0; i <= element.length; i++){
                     if (element[i] < VALUE100){
                         outputArray.push(element[i]);
